@@ -1,0 +1,45 @@
+{
+  "name": "lgtm-flickr",
+  "version": "0.0.1",
+  "description": "Looks Good To Me From Flickr",
+  "scripts": {
+    "build": "gulp build",
+    "download": "gulp download",
+    "rebuild": "gulp rebuild",
+    "release": "gulp release",
+    "watch": "gulp default"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tabio/lgtm_chrome_extension.git"
+  },
+  "keywords": [
+    "github",
+    "markdown",
+    "comment",
+    "autocomplete",
+    "lgtm",
+    "flickr"
+  ],
+  "author": "tabio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tabio/lgtm_chrome_extension/issues"
+  },
+  "homepage": "https://github.com/tabio/lgtm_chrome_extension",
+  "devDependencies": {
+    "coffee-script": "^1.8.0",
+    "gulp": "^3.8.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-coffee": "^2.2.0",
+    "gulp-concat": "^2.4.1",
+    "gulp-download": "0.0.1",
+    "gulp-sass": "^2.1.0",
+    "gulp-uglify": "^1.0.1",
+    "gulp-zip": "^2.0.2",
+    "run-sequence": "^1.0.1"
+  },
+  "dependencies": {
+    "octokat": "^0.4.13"
+  }
+}
