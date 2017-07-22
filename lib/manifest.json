@@ -27,7 +27,7 @@
     }
   ],
   "web_accessible_resources": [
-    "config/flickr.json",
+    "config/idol.json",
     "js/underscore-min.map"
   ]
 }
